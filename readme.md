@@ -1,14 +1,14 @@
 # Description:
 ## Background
-At Shadowfax, part of our business includes delivering food orders from clients such as Swiggy and Zomato to customers. The typical order flow goes something like this: </br>
-  A client creates the order in our system </br>
+At Shadowfax, part of its business includes delivering food orders from clients such as Swiggy and Zomato to customers. The typical order flow goes something like this: </br>
+  A client creates the order in the system of Shadowfax</br>
   The order gets allocated to a rider</br>
   The rider accepts the order</br>
   The rider goes to the pickup location</br>
   The rider picks up the order</br>
   The rider goes to the delivery location and delivers the order</br>
   The rider also has the option to get the order cancelled before delivery by calling the client’s call centre. </br>
-      We would like to predict this kind of cancellation before it happens so that we can try and reassign the order 
+      I need to predict this kind of cancellation before it happens so that company can reassign the order 
       to another rider before it gets cancelled.</br>
 
 ## Problem Statement:
@@ -19,7 +19,6 @@ Given the order and rider details as described below, create a model that can pr
 ### Files </br>
   train.csv - the training set</br>
   test.csv - the test set</br>
-  sample_submission.csv - a sample submission file in the correct format</br>
 
 ### Columns
 train.csv: This file contains one row for each order created in a specific time frame. </br>
